@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dolar Blue</title>
+</head>
+<body>
+    <div class="header-container">
+        <span>DÓLAR BLUE</span>
+        
+        <div class="compra-container">
+            <span class="data data-compra">
+                <div class="data-title">Compra:</div>
+                <div class="data-value" id="data-compra-value"></div>
+            </span>
+        </div>
+
+        
+        <div class="venta-container">            
+            <span class="data data-venta">
+                <div class="data-title">Venta:</div>
+                <div class="data-value" id="data-venta-value"></div>
+            </span>
+        </div>
+
+        <div class="last-update">
+            última actualización: <span id="dateTimeLastUpdate"></span>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------ -->
+    <div class="body-container">
+
+        <table id="tabla-registros">
+            <thead>
+                <th>Cantidad Comprada(usd)</th>
+                <th>Precio Comprado(arg)</th>
+                <th>Ganancia/Perdida unid.(arg)</th>
+                <th>Total Ganancia/Perdida.(arg)</th>
+            </tr>
+        </table>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
